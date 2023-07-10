@@ -15,14 +15,27 @@ body {
   padding: 15px 25px;
 }
 
+main section {
+  margin-top: 128px;
+}
+.section-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 /* Banner Related Styles start */
 .banner-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding: 50px 240px 0 240px; */
-  /* gap: 90px; */
-  /* margin: 50px 240px 0 240px; */
   padding: 50px 80px;
 }
 
@@ -40,9 +53,38 @@ body {
   margin-bottom: 0;
 }
 .banner-description {
-  color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+.btn-shop-now {
+  margin-top: 50px;
+}
+/* Banner Related Styles end */
+
+/* Hot Deal Related Styles start */
+.hot-deal {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  max-height: 620px;
+}
+.hot-deal-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 100px 200px;
+  gap: 90px;
+}
+.hot-deal-details {
+  max-width: 594px;
+}
+.hot-deal-title {
+  margin-bottom: 0;
+}
+.hot-deal-description {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.btn-sign-up {
   margin-top: 32px;
 }
