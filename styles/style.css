@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 30px 100px 0 200px;
+  padding: 30px 100px 0 100px;
   max-width: 1075px;
   /* gap: 40px; */
 }
@@ -58,7 +58,7 @@ body {
   margin-bottom: 0;
 }
 .banner-photo img {
-  height: 730px;
+  /* height: 730px; */
 }
 .btn-shop-now {
   margin-top: 50px;
