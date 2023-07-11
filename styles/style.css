@@ -36,7 +36,6 @@ body {
   align-items: center;
   padding: 30px 100px 0 200px;
   max-width: 1075px;
-  /* gap: 40px; */
 }
 
 .banner-details {
@@ -44,7 +43,6 @@ body {
 }
 .banner-section {
   background-color: rgba(229, 84, 115, 0.1);
-  /* height: 800px; */
 }
 
 .banner-heading {
@@ -57,9 +55,7 @@ body {
   margin-top: 32px;
   margin-bottom: 0;
 }
-.banner-photo img {
-  /* height: 730px; */
-}
+
 .btn-shop-now {
   margin-top: 50px;
 }
@@ -166,7 +162,6 @@ body {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   max-height: 620px;
-  display: none;
 }
 .hot-deal-container {
   display: flex;
