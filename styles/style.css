@@ -64,12 +64,63 @@ body {
 }
 /* Banner Related Styles end */
 
+/* Featured Related styles start */
+
+.featured-section {
+  max-width: 1075px;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+.featured-details-container {
+  max-width: 590px;
+  align-items: center;
+  margin: auto;
+}
+.featured-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  margin-top: 20px;
+}
+.img-box1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 28px 20px;
+  height: 400px;
+}
+.img-box2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 28px 5px;
+  width: 340px;
+  height: 400px;
+}
+
+.img-box3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 28px 20px;
+  height: 400px;
+}
+.img-box3 img {
+  height: 430px;
+}
+.img-box2 a {
+  padding-top: 50px;
+}
+.flower-name-container {
+  display: flex;
+  justify-content: space-around;
+}
 /* Hot Deal Related Styles start */
 .hot-deal {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   max-height: 620px;
-  /* display: none; */
+  display: none;
 }
 .hot-deal-container {
   display: flex;
