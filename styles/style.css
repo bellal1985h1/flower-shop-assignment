@@ -18,6 +18,8 @@ body {
 main section {
   margin-top: 90px;
   margin-bottom: 0;
+  max-width: 1075px;
+  margin: auto;
 }
 .section-title {
   color: #272727;
@@ -90,7 +92,10 @@ main section {
 .btn-sign-up {
   margin-top: 32px;
 }
-
+#hot-deal {
+  max-width: 100%;
+  margin-top: 90px;
+}
 /* Instagram related styles */
 .instagram-photo-container {
   display: flex;
@@ -113,4 +118,33 @@ main section {
 .instagram-description {
   margin-top: 24px;
   margin-bottom: 0;
+}
+
+/* Latest-Deals related Styles */
+.latest-deals-container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  padding: 60px 80px;
+}
+.latest-deals {
+  background-image: url("../Flower Asset/Rectangle 9.png");
+  background-size: cover;
+  background-position: center;
+  margin: auto;
+  text-align: center;
+  margin-top: 90px;
+}
+.latest-deals-title {
+  margin-bottom: 0;
+}
+.latest-deals-description {
+  margin-top: 10px;
+}
+.latest-deals-container input[type="email"] {
+  padding: 15px 25px;
+  width: 70%;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
 }
