@@ -115,6 +115,31 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+/* Flower for special occasion related styles start */
+.spcial-occasions {
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+}
+
+.special-occasion-flower-photo {
+  margin: auto;
+  text-align: center;
+}
+.special-occasion-flower-photo img {
+  width: 1075px;
+  height: 600px;
+  border-radius: 5px;
+}
+.occasion-section-description {
+  max-width: 590px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* Flower for special occasion related styles End */
 /* Hot Deal Related Styles start */
 .hot-deal {
   border-radius: 8px;
