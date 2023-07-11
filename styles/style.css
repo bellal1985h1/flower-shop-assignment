@@ -43,9 +43,7 @@ body {
   background-color: rgba(229, 84, 115, 0.1);
   height: 100vh;
 }
-.banner-details {
-  /* max-width: 908px; */
-}
+
 .banner-heading {
   color: #272727;
   font-size: 55px;
@@ -116,6 +114,8 @@ body {
   justify-content: space-around;
 }
 
+/* Featured Related styles start */
+
 /* Flower for special occasion related styles start */
 .spcial-occasions {
   margin: auto;
@@ -131,7 +131,7 @@ body {
 .special-occasion-flower-photo img {
   width: 1075px;
   height: 600px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .occasion-section-description {
   max-width: 590px;
@@ -140,12 +140,29 @@ body {
   margin-bottom: 20px;
 }
 /* Flower for special occasion related styles End */
+
+/* Support section related styles start */
+.support-section {
+  max-width: 1075px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 60px;
+  padding: 70px 0;
+}
+.support-items-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* Hot Deal Related Styles start */
 .hot-deal {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   max-height: 620px;
-  display: none;
 }
 .hot-deal-container {
   display: flex;
@@ -172,7 +189,10 @@ body {
   max-width: 100%;
   margin-top: 60px;
 }
-/* Instagram related styles */
+
+/* Hot Deal Related Styles End */
+
+/* Instagram related styles start */
 .instagram {
   margin-top: 60px;
 }
@@ -198,8 +218,9 @@ body {
   margin-top: 20px;
   margin-bottom: 0;
 }
+/* Instagram related styles End */
 
-/* Latest-Deals related Styles */
+/* Latest-Deals related Styles start */
 .latest-deals-container {
   max-width: 700px;
   margin: auto;
@@ -229,8 +250,9 @@ body {
   border: none;
   border-radius: 8px;
 }
+/* Latest-Deals related Styles End */
 
-/* Footer section related styles */
+/* Footer section related styles start */
 footer {
   background-color: #111010;
   margin-top: 60px;
@@ -263,3 +285,4 @@ footer span {
 .copy-right {
   color: rgba(255, 255, 255, 0.4);
 }
+/* Footer section related styles End */
