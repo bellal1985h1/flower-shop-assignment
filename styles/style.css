@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 30px 100px 30px 200px;
+  padding: 30px 100px 100px 200px;
   max-width: 1075px;
   gap: 80px;
 }
